@@ -16,27 +16,27 @@ class PaperSeeder extends Seeder
     public function run()
     {
         Paper::create([   //FOTOGRAGO 1
-          'user_id' => '4',
+          'user_id' => '3',
           'event_id' => '2',
           'tipo' => 'F',
         ]); 
         Paper::create([
-          'user_id' => '4', // FOTOGRAFO 1
+          'user_id' => '3', // FOTOGRAFO 1
           'event_id' => '3',
           'tipo' => 'F',
         ]);
         Paper::create([
-          'user_id' => '4', // FOTOGRAFO 1 
+          'user_id' => '3', // FOTOGRAFO 1 
           'event_id' => '1',
           'tipo' => 'F',
         ]);        
         Paper::create([
-          'user_id' => '5', //FOTOGRAFO 2
+          'user_id' => '4', //FOTOGRAFO 2
           'event_id' => '1',
           'tipo' => 'F',
         ]);
         Paper::create([
-          'user_id' => '5', // FOTOGRAFO 2
+          'user_id' => '4', // FOTOGRAFO 2
           'event_id' => '2',
           'tipo' => 'F',
         ]);
@@ -46,42 +46,47 @@ class PaperSeeder extends Seeder
         //   'tipo' => 'F',
         // ]);
         Paper::create([
-          'user_id' => '6',
+          'user_id' => '6', // MESSI
           'event_id' => '1',
           'tipo' => 'I',
         ]);
         Paper::create([
-          'user_id' => '7',
+          'user_id' => '6', // MESSI
+          'event_id' => '2',
+          'tipo' => 'I',
+        ]);
+        Paper::create([
+          'user_id' => '7', // CR7
           'event_id' => '1',
           'tipo' => 'I',
         ]);
 
         Paper::create([
-          'user_id' => '7',
+          'user_id' => '7', //CR7
           'event_id' => '2',
           'tipo' => 'I',
         ]);
 
         Paper::create([
-          'user_id' => '7',
+          'user_id' => '7', //CR7
           'event_id' => '3',
           'tipo' => 'I',
         ]);
         
         Paper::create([
-          'user_id' => '8',
+          'user_id' => '5', //ENRIQUE
           'event_id' => '1',
           'tipo' => 'I',
         ]);
 
         Paper::create([
-          'user_id' => '8',
+          'user_id' => '5',//ENRIQUE
           'event_id' => '2',
           'tipo' => 'I',
         ]);
 
         Paper::create([
-          'user_id' => '8',
+          'user_id' => '5',//ENRIQUE
           'event_id' => '3',
           'tipo' => 'I',
         ]);

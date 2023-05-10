@@ -17,49 +17,49 @@ class UserSeeder extends Seeder
     {
 
       User::create([
-        'name'=> 'admin',
+        'name'=> 'admin',      //ID 1
         'email'=> 'admin@gmail.com',
         'password'=> Hash::make('0000'),
         // 'rol_id'=> 1
       ]);
 
       User::create([
-        'name'=> 'Homero',
+        'name'=> 'Homero',     //2
         'email'=> 'Homero@gmail.com',
         'password'=> Hash::make('0000'),
         // 'rol_id'=> 1
       ]);
       
       User::create([
-        'name'=> 'fotografo',
+        'name'=> 'fotografo',  //3
         'email'=> 'fotografo@gmail.com',
         'password'=> Hash::make('0000'),
         // 'rol_id'=> 1
       ]);
 
       User::create([
-        'name'=> 'fotografo2',
+        'name'=> 'fotografo2', //4
         'email'=> 'fotografo2@gmail.com',
         'password'=> Hash::make('0000'),
         // 'rol_id'=> 1
       ]);
 
       User::create([
-        'name'=> 'enrique',
+        'name'=> 'enrique', //5
         'email'=> 'enrique@gmail.com',
         'password'=> Hash::make('0000'),
         // 'rol_id'=> 1
       ]);
 
       User::create([
-        'name'=> 'messi',
+        'name'=> 'messi', //6
         'email'=> 'messi@gmail.com',
         'password'=> Hash::make('0000'),
         // 'rol_id'=> 1
       ]);
 
       User::create([
-        'name'=> 'cr7',
+        'name'=> 'cr7', //7
         'email'=> 'cr7@gmail.com',
         'password'=> Hash::make('0000'),
         // 'rol_id'=> 1

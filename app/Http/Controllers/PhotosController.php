@@ -53,6 +53,7 @@ class PhotosController extends Controller
         ],
       ]);
       $vector = $results->get('FaceMatches');
+      
       // if (count($vector) > 0) {
       //   DB::table('apareces')->insert([
       //     'paper_id' => $request['paper_id'],
