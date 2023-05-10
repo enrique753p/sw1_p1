@@ -33,8 +33,8 @@
             <h4 style="color: #ffffff; font-weight: normal">Descripcion: {{$evento->descripcion}}</h4>
             
             <div class="container">                  
-                <img src="img/codeQR.png" class="img-rounded" alt="Cinque Terre" width="304" height="236"> 
-              </div>
+                <img src="{{ asset('img/codeQr.png') }}" class="img-rounded" alt="Cinque Terre" width="304" height="236"> 
+            </div>
             {{-- @if ($evento->precio!=0)
                 <p style="color: #555"></p>
             @endif --}}
