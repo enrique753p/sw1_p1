@@ -93,12 +93,7 @@ class PaperFileController extends Controller
                 // ->async()
                 ->attach('files[]', fopen($i->url, 'r'))
                 ->attach('files[]', fopen($paperFile->url, 'r'))
-                ->post('http://127.0.0.1/sw1_p1/public/api/subirFile' , [
-                  'paper_id' => $p->id,
-                  'paper_file_id' => $paperFile->id,
-                  'url' => $paperFile->url,
-                  'urlP' => $paperFile->urlP,
-                ]);
+                ->post('http://18.118.157.242/api/subirFile');
 
 //                ->post(env('APP_SERVICE', 'http://127.0.0.1::8000') . '/api/subirFile',  [
 
