@@ -28,7 +28,7 @@
 <body>
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <div class="container-fluid">
-            <a class="navbar-brand" href="#">
+            <a class="navbar-brand" href="{{route('eventos.tienda')}}">
                 <img src="{{ asset('img/logo.png') }}" width="85" >
             </a>
             <a class="navbar-brand" href="{{route('eventos.index')}}" data-id="{{ \Auth::id() }}">
